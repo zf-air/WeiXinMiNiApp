@@ -27,10 +27,11 @@
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#0094ff",
-    "navigationBarTitleText": "我的应用",
-    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "young帆充电桩",
+    "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true,
-    "backgroundColor": "yellow"
+    "backgroundColor": "#ffffff",
+    "backgroundColorBottom": "#ffffff"
   },
   "tabBar": {
     "list": [
