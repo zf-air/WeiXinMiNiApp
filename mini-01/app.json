@@ -1,5 +1,7 @@
 {
   "pages": [  
+    "pages/demo03/demo03", 
+    "pages/index/index",
     "pages/demo18/demo18",
     "pages/demo17/demo17",       
     "pages/demo16/demo16",             
@@ -15,9 +17,9 @@
     "pages/demo06/demo06",    
     "pages/demo05/demo05",   
     "pages/demo04/demo04",   
-    "pages/demo03/demo03",   
+      
     "pages/demo01/demo01", 
-    "pages/index/index",  
+      
     "pages/img/img",
     "pages/mine/mine", 
     "pages/search/search",
@@ -26,7 +28,7 @@
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarBackgroundColor": "#0094aa",
     "navigationBarTitleText": "young帆充电桩",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true,
@@ -58,18 +60,11 @@
         "text": "搜索",
         "iconPath": "icon/_search.png",
         "selectedIconPath": "icon/search.png"
-      },
-      {
-        "pagePath": "pages/demo18/demo18",
-        "text": "demo18",
-        "iconPath": "icon/_search.png",
-        "selectedIconPath": "icon/search.png"
       }
     ],
     "color":"#0094ff",
-    "selectedColor":"#ff9400",
-    "backgroundColor":"#ff5533",
-    "position":"top"
+    "selectedColor":"#ff9400"
+    
   },
   "sitemapLocation": "sitemap.json"
 }

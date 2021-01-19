@@ -1,7 +1,7 @@
 //Page Object
 Page({
   data: {
-    msg: "hello mina",
+    msg: "hello zhangfan",
     num: 10000,
     isGirl: false,
     person: {
@@ -10,7 +10,7 @@ Page({
       weight: 200,
       name: "富婆"
     },
-    isChecked:false,
+    isChecked:true,
     list:[
       {
         id:0,
@@ -27,3 +27,4 @@ Page({
     ]
   }
 });
+
