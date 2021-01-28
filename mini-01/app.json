@@ -1,5 +1,9 @@
 {
   "pages": [  
+    "pages/demo07/demo07",
+    "pages/demo06/demo06",  
+    "pages/demo05/demo05",
+    "pages/demo04/demo04", 
     "pages/demo03/demo03", 
     "pages/index/index",
     "pages/demo18/demo18",
@@ -13,11 +17,8 @@
     "pages/demo10/demo10",    
     "pages/demo09/demo09",  
     "pages/demo08/demo08",   
-    "pages/demo07/demo07",   
-    "pages/demo06/demo06",    
-    "pages/demo05/demo05",   
-    "pages/demo04/demo04",   
-      
+       
+         
     "pages/demo01/demo01", 
       
     "pages/img/img",
