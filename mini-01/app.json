@@ -1,11 +1,5 @@
 {
   "pages": [  
-    "pages/demo07/demo07",
-    "pages/demo06/demo06",  
-    "pages/demo05/demo05",
-    "pages/demo04/demo04", 
-    "pages/demo03/demo03", 
-    "pages/index/index",
     "pages/demo18/demo18",
     "pages/demo17/demo17",       
     "pages/demo16/demo16",             
@@ -17,10 +11,13 @@
     "pages/demo10/demo10",    
     "pages/demo09/demo09",  
     "pages/demo08/demo08",   
-       
-         
+    "pages/demo07/demo07",   
+    "pages/demo06/demo06",    
+    "pages/demo05/demo05",   
+    "pages/demo04/demo04",   
+    "pages/demo03/demo03",   
     "pages/demo01/demo01", 
-      
+    "pages/index/index",  
     "pages/img/img",
     "pages/mine/mine", 
     "pages/search/search",
@@ -29,12 +26,11 @@
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#0094aa",
-    "navigationBarTitleText": "young帆充电桩",
-    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "我的应用",
+    "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true,
-    "backgroundColor": "#ffffff",
-    "backgroundColorBottom": "#ffffff"
+    "backgroundColor": "#0094ff"
   },
   "tabBar": {
     "list": [
@@ -61,11 +57,18 @@
         "text": "搜索",
         "iconPath": "icon/_search.png",
         "selectedIconPath": "icon/search.png"
+      },
+      {
+        "pagePath": "pages/demo18/demo18",
+        "text": "demo18",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png"
       }
     ],
     "color":"#0094ff",
-    "selectedColor":"#ff9400"
-    
+    "selectedColor":"#ff9400",
+    "backgroundColor":"#ff5533",
+    "position":"top"
   },
   "sitemapLocation": "sitemap.json"
 }
