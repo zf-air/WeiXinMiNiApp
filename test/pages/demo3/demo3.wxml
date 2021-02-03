@@ -1,0 +1,11 @@
+<!-- 显示系统时间 -->
+
+<!-- <view class="container">当前时间:{{time}}</view> -->
+<text >time:{{time}}</text>
+
+<!-- 空格,要加分号 -->
+<text class="" selectable="false" space="false" decode="false">
+    &nbsp;
+</text>
+
+<text >{{var}}</text>

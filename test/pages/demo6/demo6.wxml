@@ -1,0 +1,28 @@
+<!-- 模板 -->
+
+<template name="msgItem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>
+
+<!-- 传参数的时候要加 ... -->
+<!-- 传参数以字典形式传 -->
+<template is="msgItem" data="{{...item}}"></template>
+<!-- <template is="msgItem" data="{{item}}"/> 没有加... 就不对 -->
+
+<template name="odd">
+  <view> odd </view>
+  <view>{{msg}}</view>
+</template>
+
+
+<template name="even">
+  <view> even </view>
+</template>
+
+
+<block wx:for="{{[1, 2, 3, 4, 5]}}">
+  <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"/>
+</block>

@@ -1,0 +1,18 @@
+<!--pages/text-demo/text-demo.wxml-->
+<!-- 用view标签来换行 -->
+<view class="out">
+  <!-- <view>hhh</view>
+  <view>zf</view> -->
+ 
+  <view> 
+    <!-- user-select表示文字是否可选，只能用于text -->
+    <!-- space="ensp"代表文字有几个空格就显示几个空格 -->
+    <!-- decode解码，可以用&nbsp;和&lt; -->
+    <text user-select="true" decode="true">
+      hhh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; hhh
+    </text>
+  </view>
+  <view>
+    <text>zf</text>
+  </view>
+</view>

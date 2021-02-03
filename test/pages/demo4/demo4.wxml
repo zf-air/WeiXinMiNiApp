@@ -1,0 +1,18 @@
+<!-- 括号内可进行简单的逻辑运算 -->
+
+<text >{{a+b}}</text>
+<text >{{5}}</text>
+<text >{{a==5?"true":"false"}}</text>
+
+<text wx:if="{{a<5}}">
+    {{"a<5"}}
+</text>
+<text wx:else>
+    {{"a>=5"}}
+</text>
+
+<!-- block相当于代码块 -->
+<block wx:if="{{a>5}}">
+    <text >zz</text>
+    <text >ff</text>
+</block>

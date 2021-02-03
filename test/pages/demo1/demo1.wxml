@@ -1,0 +1,6 @@
+<!-- 简单的交互，函数和数据都写在js里面 -->
+
+<view class="container">{{msg}}</view>
+
+<button bindtap='click'>click me</button>
+<button bindtap='clickBack'>click back</button>

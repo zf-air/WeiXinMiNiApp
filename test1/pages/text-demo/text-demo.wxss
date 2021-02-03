@@ -1,0 +1,4 @@
+/* pages/text-demo/text-demo.wxss */
+.out view{
+  color: red;
+}

@@ -1,0 +1,9 @@
+
+<!-- 导入别的文件的模板 -->
+<import src="../demo6/demo6.wxml"></import>
+
+<!-- 可以以键值对的方式传参 -->
+<template is="msgItem" data="{{index:0,msg:'zf',time:'2000-05-02'}}" ></template>
+
+<!-- include相当于是静态包含，把原来的代码粘贴到这里 -->
+<include src="../demo6/demo6.wxml"></include>

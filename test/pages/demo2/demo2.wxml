@@ -1,0 +1,4 @@
+<text >hello zf</text>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    hello
+</view>

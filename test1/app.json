@@ -1,20 +1,13 @@
 {
   "pages":[
-    "pages/demo8/demo8",
-    "pages/demo7/demo7",
-    "pages/demo6/demo6",
-    "pages/demo5/demo5",
-    "pages/demo4/demo4",
-    "pages/demo3/demo3",
-    "pages/demo2/demo2",
-    "pages/demo1/demo1",
+    "pages/text-demo/text-demo",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "young帆充电桩",
+    "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",

@@ -1,0 +1,8 @@
+<!-- 循环,默认index和item，index是数组下标，从0开始，item是内容 -->
+<text wx:for="{{array}}">index:{{index}}  item:{{item.message}}</text>
+
+<!-- 代码块 -->
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block>
