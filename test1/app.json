@@ -1,5 +1,9 @@
 {
   "pages":[
+    "pages/swiper-demo/swiper-demo",
+    "pages/scroll-demo/scroll-demo",
+    "pages/navigate-demo/navigate-demo",
+    "pages/image-demo/image-demo",
     "pages/text-demo/text-demo",
     "pages/index/index",
     "pages/logs/logs"

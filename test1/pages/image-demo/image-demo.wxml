@@ -1,0 +1,15 @@
+<!-- 样式里面写 image{width:100%} -->
+<!-- 本地图片不能太大，超过2M就不能上传，可以用图像压缩 -->
+
+<!-- 一般用mode="widthFix"，宽度自适应 -->
+<image src="../../images/1.jpg" mode="widthFix" />
+
+<!-- 也可以跳转到网页中的图片 -->
+<image class="" src="https://dfzximg01.dftoutiao.com/news/20210203/20210203170957_ad8566ee81ae47028021e305a3566335_0.jpeg"
+ mode="widthFix" lazy-load="false" binderror="" bindload="">
+    
+</image>
+<!-- show-menu-by-longpress,长按识别小程序 -->
+<image src="/images/2.jpg" show-menu-by-longpress></image>
+
+<image src="../../images/1.jpg" mode="heightFix" />

@@ -1,0 +1,9 @@
+/* pages/swiper-demo/swiper-demo.wxss */
+.banner{
+    height: 300px;
+    width: 100%;
+}
+.banner image{
+    height: 100%;
+    width: 100%;
+}

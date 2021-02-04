@@ -1,0 +1,47 @@
+<!-- 主要是样式 class,详情看wxss -->
+
+<!-- scroll-x代表横向，scroll-y代表竖向，scroll-left代表从哪个位置开始滑动 -->
+<scroll-view class="scroOut" scroll-x="true" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+    scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+    bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+    <view class="scroBox">
+        <image class="scroBox" src="https://dfzximg01.dftoutiao.com/news/20210203/20210203170957_ad8566ee81ae47028021e305a3566335_0.jpeg"
+        mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+    </view> 
+    <view class="scroBox">
+        <image class="scroBox" src="https://dfzximg01.dftoutiao.com/news/20210203/20210203170957_ad8566ee81ae47028021e305a3566335_0.jpeg"
+        mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+    </view> 
+    <view class="scroBox">
+        <image class="scroBox" src="https://dfzximg01.dftoutiao.com/news/20210203/20210203170957_ad8566ee81ae47028021e305a3566335_0.jpeg"
+        mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+    </view> 
+    <view class="scroBox">
+        <image class="scroBox" src="https://dfzximg01.dftoutiao.com/news/20210203/20210203170957_ad8566ee81ae47028021e305a3566335_0.jpeg"
+        mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+    </view> 
+    <view class="scroBox">
+        <image class="scroBox" src="https://dfzximg01.dftoutiao.com/news/20210203/20210203170957_ad8566ee81ae47028021e305a3566335_0.jpeg"
+        mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+    </view> 
+</scroll-view>
+
+<scroll-view class="scroOut" scroll-x="true" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+    scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+    bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+    <view class="scroBox">111</view>
+    <view class="scroBox">222</view>
+    <view class="scroBox">333</view>
+    <view class="scroBox">444</view>
+    <view class="scroBox">555</view>
+</scroll-view>  
+
+
+   <!-- 竖向,不需要什么样式，只需要scroll-y打开即可  -->
+<scroll-view class="scroOut2" scroll-y>
+    <view class="scroBox2">111</view>
+    <view class="scroBox2">222</view>
+    <view class="scroBox2">333</view>
+    <view class="scroBox2">444</view>
+    <view class="scroBox2">555</view>
+</scroll-view>

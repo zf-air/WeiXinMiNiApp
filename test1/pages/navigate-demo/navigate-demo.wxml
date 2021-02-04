@@ -1,0 +1,21 @@
+
+<!-- url只能是小程序文件之间的跳转 -->
+<!-- 超链接用navigator，url代表目标地址,最后的文件不用加后缀名，默认就是wxml -->
+<navigator class="navigator" target="" url="../../pages/logs/logs" hover-class="navigator-hover" 
+open-type="navigate">
+    navigate跳转到日志
+</navigator>
+
+<!-- open-type 常用 navigate代表保留当前页面，跳转到另一个页面；redirect代表删除当前页面，跳转到另一个页面 -->
+<navigator class="navigator" target="" url="../../pages/logs/logs" hover-class="navigator-hover"
+ open-type="redirect">
+    redirect跳转
+</navigator>
+
+<!-- open-type 常用 reLaunch代表关闭所有页面，可跳转到应用内的所有界面，包括下方导航栏的页面（上面两个不可以），
+也可以携带参数 switchTab不可以携带参数，其他与reLaunch相同 -->
+<!-- reLaunch比较全能 -->
+<navigator class="navigator" target="" url="../../pages/logs/logs" hover-class="navigator-hover"
+ open-type="reLaunch">
+    reLaunch跳转
+</navigator>

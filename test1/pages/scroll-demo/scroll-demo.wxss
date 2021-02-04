@@ -1,0 +1,24 @@
+/* 横向 */
+.scroOut{
+    /* 为了横向排列 */
+    display: flex; /* 重要 */
+    white-space: nowrap; /* 重要 */
+} 
+
+.scroBox{
+    height:400px;
+    width:400px;
+    border:1px solid red;
+    display: inline-block; /* 重要 */
+}
+
+/* 竖向,不需要什么样式，只需要scroll-y打开即可 */
+.scroOut2{
+    height: 400px;
+} 
+.scroBox2{
+    height:100px;
+    width: 100%;
+    border:1px black;
+    background: pink;
+}
