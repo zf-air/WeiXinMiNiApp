@@ -1,0 +1,17 @@
+<!--pages/data-demo/data-demo.wxml-->
+<!-- 字符串 -->
+<view >
+    {{msg}}
+</view>
+<!-- 数组 -->
+<view >
+    {{list[0]}}
+</view>
+
+<view >
+    {{list}}
+</view>
+<!-- 对象 -->
+<view >
+    {{obj.name}} - {{obj.age}}
+</view>

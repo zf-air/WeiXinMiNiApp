@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/data-demo/data-demo",
     "pages/icon-progress-demo/icon-progress-demo", 
     "pages/form-demo/form-demo",
     "pages/swiper-demo/swiper-demo",
@@ -10,10 +11,34 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "color": "#00",
+    "selectedColor": "#cc0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/icon-progress-demo/icon-progress-demo",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/logs.png",
+        "selectedIconPath": "images/logs-selected.png"
+      }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "我的微信小程序",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
