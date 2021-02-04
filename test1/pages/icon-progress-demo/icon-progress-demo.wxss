@@ -1,0 +1,9 @@
+/* pages/icon-progress-demo/icon-progress-demo.wxss */
+
+/* 居中在样式里面用text-align */
+.iconView{
+    text-align: center;
+}
+.progressView{
+    padding: 50rpx;
+}

@@ -1,0 +1,26 @@
+<!--pages/form-demo/form-demo.wxml-->
+<view >
+    <!-- type代表样式 -->
+    <button type="primary">登录</button>
+    <button type="warn">退出</button>
+
+    <!-- loading加载中 -->
+    <button class="btn" type="" loading disabled="{{disabled}}" bindtap="onTap">
+        加载中.. 
+    </button>
+
+    <!-- open-type与客服联系 -->
+    <button open-type="contact">联系客服</button>
+
+    <!-- form-type代表提交 -->
+    <form bindsubmit="submit">
+        <!-- input输入框 -->
+        <!-- confirm-type代表键盘右下角显示的字 -->
+        <!-- curser-spacing代表输入框和键盘的距离 -->
+        <!-- type代表键盘的类型 数字 文字 身份证号 带小数点的数字键盘-->
+        <input placeholder="请输入用户名" focus="{{true}}" cursor-spacing="100" confirm-type="done" />
+
+        <!-- form-type提交表单 -->
+        <button form-type="submit">提交</button>
+    </form>
+</view>

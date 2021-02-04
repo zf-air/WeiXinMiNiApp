@@ -2,6 +2,8 @@
   width: 100px;
   height: 100px;
   background: red;
+  /* 边框 */
+  border: 1px solid black;
 }
 .boxHover{
   background: green;

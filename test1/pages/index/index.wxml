@@ -1,6 +1,6 @@
 <!-- hover-class,点击后更改样式 -->
 <!-- hover-stop-propagation,防止冒泡，选中子框图，不影响父框图 -->
-
+<!-- text-align代表居中 -->
 
 <view class="box" hover-class="boxHover" >
   <view class="item" hover-class="itemHover"

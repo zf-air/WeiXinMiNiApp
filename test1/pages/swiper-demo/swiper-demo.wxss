@@ -2,6 +2,7 @@
 .banner{
     height: 300px;
     width: 100%;
+    border: 3px solid red;
 }
 .banner image{
     height: 100%;

@@ -1,6 +1,8 @@
 <!--pages/swiper-demo/swiper-demo.wxml-->
-<swiper class="banner">
-    <swiper-item >
+<!-- indicator-color代表rgb值和透明度a -->
+<swiper class="banner" indicator-dots indicator-color="rgba(255,255,255,0.5 )" 
+    indicator-active-color="#fff" autoplay interval="5000" circular previous-margin="25px" next-margin="25px">
+    <swiper-item > 
         <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2639148503,505028585&fm=11&gp=0.jpg" 
         mode="widthFix"/>
     </swiper-item>

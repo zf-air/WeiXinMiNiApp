@@ -1,0 +1,10 @@
+/* pages/form-demo/form-demo.wxss */
+button{
+    margin: 10px;
+}
+input{
+    box-sizing: border-box;
+    padding: 0 10rpx;
+    height: 70rpx;
+    border: 3px solid black;
+}

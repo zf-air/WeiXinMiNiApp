@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/icon-progress-demo/icon-progress-demo", 
+    "pages/form-demo/form-demo",
     "pages/swiper-demo/swiper-demo",
     "pages/scroll-demo/scroll-demo",
     "pages/navigate-demo/navigate-demo",

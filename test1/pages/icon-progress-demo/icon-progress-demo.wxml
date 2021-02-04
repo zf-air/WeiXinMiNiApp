@@ -1,0 +1,13 @@
+<!--pages/icon-progress-demo/icon-progress-demo.wxml-->
+<view class="iconView">
+    <icon type="success" size="30" />
+    <view>恭喜您，提交成功</view>
+</view>
+
+<view class="progressView">
+    <progress class="" percent="60" show-info="true" stroke-width="16" color="#09BB07" 
+    active="true" backgroundColor="" activeColor="#FF0000" active-mode="backwards"
+    border-radius="3" font-size="20">
+    
+    </progress>
+</view>
