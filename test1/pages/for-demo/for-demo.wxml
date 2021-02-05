@@ -1,0 +1,18 @@
+<!--pages/for-demo/for-demo.wxml-->
+
+<!-- 循环 -->
+<!-- index表示下标,从0开始 -->
+<view wx:for="{{4}}" wx:key="*this">{{index+1}}、hello zf</view>
+<text decode="{{true}}">&nbsp;</text>
+
+<!-- item代表数组中每一项的内容 -->
+<view wx:for="{{[111,222,333]}}" wx:key="*this">{{index}},{{item}}</view>
+<text decode="{{true}}">&nbsp;</text>
+
+<view wx:for="{{listArr}}" wx:key="*this" wx:for-index="i" wx:for-item="content">
+    {{i}}. {{content}}
+</view>
+<text decode="{{true}}">&nbsp;</text>
+
+<!-- 对象数组 -->
+<view wx:for="{{listObj}}" wx:key="*this">{{index}}. name:{{item.name}} age:{{item.age}}</view>

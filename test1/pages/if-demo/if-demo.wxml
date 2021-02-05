@@ -1,0 +1,28 @@
+<!--pages/if-demo/if-demo.wxml-->
+
+<!-- 条件判断 -->
+<view wx:if="{{false}}">hello zf</view>
+
+<view wx:else>hhh</view>
+
+<view wx:if="{{day==1}}">周一</view>
+<view wx:elif="{{day==2}}">周二</view>
+<view wx:elif="{{day==3}}">周三</view>
+<view wx:elif="{{day==4}}">周四</view>
+<view wx:elif="{{day==5}}">周五</view>
+<view wx:elif="{{day==6}}">周六</view>
+<view wx:elif="{{day==7}}">周日</view>
+<view wx:else>错误</view>
+
+<!-- block只是用来包裹内容，在样式上没有作用 -->
+<block wx:if="{{true}}">
+    <view >hhh</view>
+    <navigator url="../index/index" open-type="reLaunch">跳转到首页</navigator>
+    <view >hhh</view>
+</block>
+<block wx:else>好的</block>
+
+<navigator class="navigator" target="" url="../../pages/logs/logs" hover-class="navigator-hover" 
+open-type="reLaunch">
+    navigate跳转到日志
+</navigator>

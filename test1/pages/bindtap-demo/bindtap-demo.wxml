@@ -1,0 +1,6 @@
+<!--pages/bindtap-demo/bindtap-demo.wxml-->
+
+<!-- bindtap为事件绑定 data-xx可以设置数据 js中可以通过currentTarget里面的dataset中看到 -->
+<view bindtap="mytap" data-name="张帆" data-age="18">点击我</view>
+
+<view >{{name}}</view>

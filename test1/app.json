@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/bindtap-demo/bindtap-demo",
+    "pages/for-demo/for-demo", 
+    "pages/if-demo/if-demo",
     "pages/data-demo/data-demo",
     "pages/icon-progress-demo/icon-progress-demo", 
     "pages/form-demo/form-demo",
