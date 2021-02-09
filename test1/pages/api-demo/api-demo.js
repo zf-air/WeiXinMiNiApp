@@ -1,4 +1,4 @@
-// pages/icon-progress-demo/icon-progress-demo.js
+// pages/api-demo/api-demo.js
 Page({
 
   /**
@@ -6,6 +6,11 @@ Page({
    */
   data: {
 
+  },
+  clickbtn:function(){
+    wx.reLaunch({
+      url: '../for-demo/for-demo?a=15',
+    })
   },
   /**
    * 生命周期函数--监听页面加载

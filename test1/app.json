@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/api-demo/api-demo",
     "pages/bindtap-demo/bindtap-demo",
     "pages/for-demo/for-demo", 
     "pages/if-demo/if-demo",

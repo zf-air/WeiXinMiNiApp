@@ -1,0 +1,4 @@
+<!--pages/api-demo/api-demo.wxml-->
+
+<!-- 绑定事件调用api跳转 -->
+<button bindtap="clickbtn">点击跳转</button>

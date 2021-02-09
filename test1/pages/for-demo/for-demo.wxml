@@ -16,3 +16,5 @@
 
 <!-- 对象数组 -->
 <view wx:for="{{listObj}}" wx:key="*this">{{index}}. name:{{item.name}} age:{{item.age}}</view>
+
+<button bindtap="clickback">返回上一界面</button>

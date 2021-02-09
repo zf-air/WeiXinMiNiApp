@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/map2/map2",
+    "pages/map/map",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh ": true
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#0cc",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "记录",
+        "iconPath": "images/logs.png",
+        "selectedIconPath": "images/logs-selected.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}
