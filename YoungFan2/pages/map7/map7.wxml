@@ -1,0 +1,8 @@
+<view>
+    <map name="" latitude="{{latitude}}" longitude="{{longitude}}" 
+    style="width: 100%; height: {{height-100}}px;">
+        <cover-view style="width: 100%; height: 80px;">
+            <cover-image src="../../image/扫码用车.PNG"></cover-image>
+        </cover-view>
+    </map>
+</view>

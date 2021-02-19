@@ -1,0 +1,29 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/map4/map4",
+          "pathName": "pages/map4/map4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map6/map6",
+          "pathName": "pages/map6/map6",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

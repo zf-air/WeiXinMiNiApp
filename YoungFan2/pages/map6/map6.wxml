@@ -1,0 +1,5 @@
+<!--pages/map6/map6.wxml-->
+<button bindtap="clickMap">地图选点</button>
+<button bindtap="routePlan">路线规划</button>
+<button bindtap="navigate">导航</button>
+<button bindtap="index">跳转到地图页</button>

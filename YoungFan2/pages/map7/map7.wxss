@@ -1,0 +1,12 @@
+/* pages/map7/map7.wxss */
+
+.imageclass1 {
+  /* bottom: 20px;
+    left: calc(50% - 300rpx); */
+  position: absolute;
+  bottom: calc(100% - 150rpx);
+  left: calc(50% - 300rpx);
+  width: 200rpx;
+  height: 300rpx;
+  background: rgba(26, 173, 25, 0.7);
+}
