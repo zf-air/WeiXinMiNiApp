@@ -9,7 +9,13 @@
     "pages/map4/map4",
     "pages/map5/map5",
     "pages/map6/map6",
-    "pages/map7/map7"
+    "pages/map7/map7",
+    "pages/order/order",
+    "pages/orderSuccess/orderSuccess",
+    "pages/myOrder/myOrder",
+    "pages/mapToOrder/mapToOrder",
+    "pages/navigate/navigate",
+    "pages/service/service"
   ],
   "tabBar": {
     "color": "#ffffff",
@@ -19,16 +25,16 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
+        "text": "我的",
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home-selected.png"
-      },
+      },    
       {
-        "pagePath": "pages/map6/map6",
+        "pagePath": "pages/map7/map7",
         "text": "地图",
         "iconPath": "images/map.png",
         "selectedIconPath": "images/map-selected.png"
-      },
+      },    
       {
         "pagePath": "pages/logs/logs",
         "text": "记录",

@@ -1,0 +1,5 @@
+/* pages/myOrder/myOrder.wxss */
+.myOrder{
+    margin-top: 40rpx;
+    text-align: center;
+}

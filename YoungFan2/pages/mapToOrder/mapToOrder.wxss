@@ -1,0 +1,4 @@
+/* pages/mapToOrder/mapToOrder.wxss */
+.charge {
+  margin-top: 50rpx;
+}

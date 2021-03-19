@@ -1,0 +1,15 @@
+/* pages/service/service.wxss */
+.iconView{
+    margin-top: 200rpx;
+    text-align: center;
+}
+.progressView{
+    padding: 50rpx;
+}
+.back{
+    margin-bottom: 40rpx;
+}
+.iconText{
+    margin-top: 80rpx;
+    font-size: large;
+}

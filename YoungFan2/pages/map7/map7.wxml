@@ -1,8 +1,32 @@
 <view>
-    <map name="" latitude="{{latitude}}" longitude="{{longitude}}" 
-    style="width: 100%; height: {{height-100}}px;">
-        <cover-view style="width: 100%; height: 80px; bottom: 0px; >
-            <cover-image src="../../image/扫码用车.PNG"></cover-image>
+    <map id="mymap" latitude="{{34.81761909232559}}" longitude="{{113.53583325360106}}" 
+    style="width: 100%; height: {{height}}px;" scale="16" 
+    markers="{{markers}}" polyline="{{ployline}}" 
+    enable-3D  show-location
+    bindmarkertap="markerTap">
+        <!-- 扫码开锁 -->
+        <!-- <cover-view class="scanCode" bindtap="scanCodeEvent">
+            <cover-image src="../../image/扫码用车.PNG" mode="aspectFill">扫码开锁</cover-image>
+        </cover-view> -->
+
+        <!-- <view class="scanCode" bindtap="scanCodeEvent">
+            <text class="scanCodeText">扫码开锁</text>
+        </view>      -->
+
+        <!-- 扫码开锁 -->
+        <cover-view class="use" bindtap="scanCodeEvent">
+            <cover-image src="../../image/扫码.png" mode="aspectFill"></cover-image>
+        </cover-view>        
+
+        <!-- 返回按钮 -->
+        <cover-view class="controls2" bindtap="navigateBack">
+            <cover-image src="../../image/返回.png" mode="aspectFill"></cover-image>      
         </cover-view>
+        <!-- 定位按钮 -->
+        <cover-view class="controls3">
+            <cover-image src="../../image/定位.png" bindtap="locateCurrentSite" 
+            mode="aspectFill">
+            </cover-image>      
+        </cover-view>       
     </map>
 </view>

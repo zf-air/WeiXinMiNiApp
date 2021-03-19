@@ -1,0 +1,2 @@
+<!-- pages/navigate/navigate.wxml -->
+<button bindtap="clickback">返回上一界面</button>

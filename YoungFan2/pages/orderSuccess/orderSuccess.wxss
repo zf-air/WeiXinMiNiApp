@@ -1,0 +1,9 @@
+/* pages/orderSuccess/orderSuccess.wxss */
+.iconView{
+    margin-top: 200rpx;
+    text-align: center;
+}
+.iconText{
+    margin-top: 80rpx;
+    font-size: large;
+}

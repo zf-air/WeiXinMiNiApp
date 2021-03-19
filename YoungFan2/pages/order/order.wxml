@@ -1,0 +1,22 @@
+<!-- pages/order/order.wxml -->
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <!-- input输入框 -->
+    <!-- confirm-type代表键盘右下角显示的字 -->
+    <!-- curser-spacing代表输入框和键盘的距离 -->
+    <!-- type代表键盘的类型 数字 文字 身份证号 带小数点的数字键盘 -->
+    <!-- <input name="orderHours" class="input" placeholder="请输入预约时长" focus="{{true}}" cursor-spacing="100" confirm-type="done" /> -->
+    <!-- <input name="orderTime" class="input" placeholder="请输入预约时间点" focus="{{true}}" cursor-spacing="100" confirm-type="done" /> -->
+    <picker name="picker" mode="date" value="{{date}}" start="2015-09-01" end="2050-09-01" bindchange="bindDateChange">
+        <view class="picker">选择预约日期: {{orderDate}}</view>
+    </picker>
+    <picker name="picker" mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+        <view class="picker">选择预约时间: {{orderTime}}</view>
+    </picker>
+    <picker mode="selector" range="{{array}}" index="{{index}}" bindchange="bindHoursChange">       
+        <view class="picker">选择预约时长: {{array[index]}} 小时</view> 
+    </picker>
+    <!-- form-type提交表单 -->
+    <button class="btn" form-type="submit" bindtap="orderSuccess" type="primary">提交</button>
+    <button class="btn" form-type="reset">Reset重置</button>
+</form>
+<button class="btn" bindtap="clickback">返回上一界面</button>

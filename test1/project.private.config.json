@@ -1,4 +1,5 @@
 {
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -14,6 +15,12 @@
         {
           "name": "pages/logs/logs",
           "pathName": "pages/logs/logs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/icon-progress-demo/icon-progress-demo",
+          "pathName": "pages/icon-progress-demo/icon-progress-demo",
           "scene": null
         }
       ]

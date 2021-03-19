@@ -1,0 +1,6 @@
+<!-- pages/mapToOrder/mapToOrder.wxml -->
+<button class="charge" bindtap="orderTap">预约</button>
+<button class="charge">查看状态</button>
+<button class="charge" bindtap="navigateTap">到这去</button>
+<button class="charge" bindtap="service" >故障报修</button>
+<button class="charge" bindtap="clickback">返回上一界面</button>

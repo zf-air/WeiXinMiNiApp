@@ -1,0 +1,13 @@
+/* pages/order/order.wxss */
+.btn{
+    width: 60%;
+    text-align: center;
+    margin-top: 40rpx;
+}
+.picker{
+    margin-top: 40rpx;
+    text-align: center;
+}
+.orderHours{
+    margin-left: 20rpx;
+}

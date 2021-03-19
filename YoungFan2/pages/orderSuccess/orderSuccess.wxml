@@ -1,0 +1,5 @@
+<!--pages/orderSuccess/orderSuccess.wxml-->
+<view class="iconView">
+    <icon type="success" size="50" />
+    <view class="iconText">预约成功</view>
+</view>

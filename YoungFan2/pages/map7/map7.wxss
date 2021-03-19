@@ -1,12 +1,75 @@
 /* pages/map7/map7.wxss */
 
-.imageclass1 {
-  /* bottom: 20px;
-    left: calc(50% - 300rpx); */
+/* 扫码控件 */
+.scanCode {
   position: absolute;
-  bottom: calc(100% - 150rpx);
-  left: calc(50% - 300rpx);
-  width: 200rpx;
-  height: 300rpx;
-  background: rgba(26, 173, 25, 0.7);
+  /* width: 180rpx; */
+  width: 80%;
+  height: 100rpx;
+  bottom: 20px; 
+  /* 居中 */
+  left: 75rpx;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 95%;
+  box-sizing: content-box;
+  background-color: black; */
+}
+.scanCodeText{
+  font-size:40rpx;
+  font-family:"宋体";
+  color:white;           /*设置文字颜色*/
+  font-weight:bold;    /*设置字体加粗*/
+}
+.use{
+  width: 140rpx;
+  height: 140rpx;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 50%;
+  box-sizing: border-box; */
+  left: 315rpx;
+  bottom: 40rpx; 
+  background-color: white;
+}
+/* 返回控件 */
+.controls2{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  margin-left: 20rpx;
+  top: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: white;
+}
+/* 定位控件 */
+.controls3{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  margin-right: 20rpx;
+  right: 20rpx;
+  bottom: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: white;
 }

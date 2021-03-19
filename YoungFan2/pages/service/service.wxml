@@ -1,0 +1,6 @@
+<!--pages/service/service.wxml-->
+<view class="iconView">
+    <icon type="success" size="50" />
+    <view class="iconText">报修成功</view>
+</view>
+<!-- <button class="back" bindtap="clickback">返回上一界面</button> -->

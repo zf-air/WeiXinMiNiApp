@@ -15,7 +15,7 @@ Page({
     endLatitude: "",
     endLongitude: "",
     endAddress: "",
-    
+
     scale: 14,
     markers: [],
     key: "YF3BZ-4DAKD-SMN4W-PO5M4-VYZZT-54B2Y", //在腾讯位置服务申请的key
@@ -57,7 +57,7 @@ Page({
   },
 
   //导航
-  navigate(){
+  navigate() {
     wx.openLocation({
       latitude: this.data.endLatitude,
       longitude: this.data.endLongitude,
@@ -66,7 +66,7 @@ Page({
   },
 
   //跳转到地图页
-  index:function(){
+  index: function () {
     wx.navigateTo({
       url: '../map7/map7',
     })
@@ -75,7 +75,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.getLocation();
+    // this.getLocation();
+    this.clickMap();
   },
 
   /**
@@ -85,21 +86,6 @@ Page({
     this.getLocation();
   },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    // 从地图选点插件返回后，在页面的onShow生命周期函数中能够调用插件接口，取得选点结果对象
-    const location = chooseLocation.getLocation(); // 如果点击确认选点按钮，则返回选点结果对象，否则返回null
-    if (location != null) {
-      console.log(location);
-      this.setData({
-        endLatitude: location.latitude,
-        endLongitude: location.longitude,
-        endAddress: location.name,
-      });
-    }
-  },
   //腾讯位置服务地图选点
   clickMap() {
     let that = this;
@@ -179,8 +165,7 @@ Page({
         longitude: longitude,
       });
       wx.navigateTo({
-        url:
-          "plugin://chooseLocation/index?key=" +
+        url: "plugin://chooseLocation/index?key=" +
           key +
           "&referer=" +
           referer +
@@ -193,6 +178,26 @@ Page({
       });
     }
   },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+    // 从地图选点插件返回后，在页面的onShow生命周期函数中能够调用插件接口，取得选点结果对象
+    const location = chooseLocation.getLocation(); // 如果点击确认选点按钮，则返回选点结果对象，否则返回null
+    if (location != null) {
+      console.log(location);
+      this.setData({
+        endLatitude: location.latitude,
+        endLongitude: location.longitude,
+        endAddress: location.name,
+      });
+      this.routePlan();
+      //跳转到导航界面
+      // this.navigate();
+    }
+  },
+
   //腾讯位置服务路线规划
   routePlan() {
     let that = this;
@@ -275,8 +280,7 @@ Page({
         longitude: longitude,
       });
       wx.navigateTo({
-        url:
-          "plugin://routePlan/index?key=" +
+        url: "plugin://routePlan/index?key=" +
           key +
           "&referer=" +
           referer +
